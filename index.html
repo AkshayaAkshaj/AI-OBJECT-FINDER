@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>AI OBJECT FINDER</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+      
+        <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+        
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body background="bg.jpg">
+        
+        <center>
+            <h1 class="btn btn-info heading">AI OBJECT FINDER
+                <p id="note">The input name which you will give should match the names present in CoCo model then only it will detect</p>
+            </h1>
+            <br><br><br>
+            <input type="text" placeholder="Enter the name of the object" id="object_name" class="form-control">
+            <br><br>
+            <button onclick="start()" id="start" class="btn btn-success">START</button>
+            <br><br>
+            <h3 id="status" class="btn btn-primary"></h3>
+            <h3 id="object_found_or_not" class="btn btn-danger"></h3>
+
+            <div class="copy_right_footer">Developed by Akshaya Akshaj</div>
+        </center>
+    </body>
+</html>

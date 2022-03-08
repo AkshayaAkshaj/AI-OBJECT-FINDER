@@ -1,0 +1,32 @@
+body{
+    background-size: cover;
+}
+canvas{
+    border: 2px solid white;
+    margin-top: 130px;
+    box-shadow: 5px 5px 5px white;
+    border-radius: 10px;
+
+}
+.heading{
+    width: 100%;
+    font-size: 23px;
+}
+#status,#object_found_or_not{
+    font-size: 18px;
+}
+.copy_right_footer{
+position: fixed;
+color:grey;
+bottom: 0;
+width: 100%;
+background-color: white;
+line-height: 3;
+text-align: center;
+}
+#object_name{
+    width: 25%;
+}
+#note{
+    font-size: 18px;
+}
